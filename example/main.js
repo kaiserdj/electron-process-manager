@@ -13,7 +13,7 @@ app.once('ready', function () {
     webPreferences: {
       nodeIntegration: true,
       webviewTag: true,
-      contextIsolation: false,
+      contextIsolation: true,
     },
   });
   w.once('closed', function () { w = null; });

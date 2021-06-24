@@ -9,8 +9,9 @@ const config = {
     path: BUILD_DIR,
     filename: 'ui-bundle.js'
   },
+  mode: 'production',
   module : {
-    loaders : [
+    rules : [
       {
         test: /\.(jsx|js)?$/,
         loader : 'babel-loader',
