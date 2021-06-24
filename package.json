@@ -1,6 +1,6 @@
 {
   "name": "electron-process-manager",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Process manager UI for Electron applications",
   "repository": "getstation/electron-process-manager",
   "main": "src/index.js",
@@ -32,9 +32,6 @@
     "spectron": "^15.0.0",
     "webpack": "^5.40.0",
     "webpack-cli": "^4.7.2"
-  },
-  "peerDependencies": {
-    "electron": "^13.1.4"
   },
   "dependencies": {
     "electron-process-reporter": "^1.4.0"
